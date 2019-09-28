@@ -1,9 +1,4 @@
-import { geolocated } from "react-geolocated";
 import { Distance } from "./Distance.component";
+import { withGeolocation } from "../../HOC/withGeolocation";
 
-export const DistanceContainer = geolocated({
-  positionOptions: {
-    enableHighAccuracy: true
-  },
-  userDecisionTimeout: 5000
-})(Distance);
+export const DistanceContainer = withGeolocation(Distance);

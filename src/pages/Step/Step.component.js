@@ -2,6 +2,7 @@ import React from "react";
 import teams from "../../config.json";
 import "../../App.css";
 import { Distance } from "../../components/Distance";
+import { SubmitButton } from "../../components/SubmitButton";
 
 export function Step({
   match,
@@ -9,9 +10,8 @@ export function Step({
   isGeolocationEnabled,
   coords
 }) {
-  const clue = teams
-    .find(team => team.id === match.params.teamId)
-    .steps.find(step => step.id === match.params.stepId);
+  const team = teams.find(team => team.id === match.params.teamId);
+  const clue = team.steps.find(step => step.id === match.params.stepId);
 
   return (
     <>
@@ -19,12 +19,14 @@ export function Step({
         <span role="img" style={{ fontSize: 54 }} aria-label="ghost">
           👻
         </span>
-        <span style={{ marginBottom: 16 }}>{clue.text}</span>
+        <span>{clue.text}</span>
         <img
+          style={{ marginTop: 16, marginBottom: 16 }}
           src={clue.pictureUrl}
           alt="indice"
           width={(5 * window.innerWidth) / 6}
         />
+        <SubmitButton team={team} />
       </div>
       <div className="Footer">
         <Distance clue={clue} />

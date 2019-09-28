@@ -11,12 +11,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 16px;
+  padding: 64px 16px 128px;
 }
 
 .Footer {
   padding: 16px;
   bottom: 0;
+  left: 0;
+  right: 0;
   position: absolute;
   background-color: #09d3ac;
   color: #000;
