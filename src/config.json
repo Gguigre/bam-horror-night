@@ -1,26 +1,37 @@
 [
   {
-    "id": "red",
-    "color": "#FF0000",
-    "label": "EQUIPE DES ROUGES",
-    "steps": [{ "id": "6f4d5a8f-4dab-48db-9ed7-1ed271ce3cd0" }]
-  },
-  {
     "id": "green",
     "color": "#00FF00",
     "label": "EQUIPE DES VERTS",
-    "steps": [{ "id": "6f4d5a8f-4dab-48db-9ed7-1ed271ce3cd0" }]
-  },
-  {
-    "id": "blue",
-    "color": "#0000FF",
-    "label": "EQUIPE DES BLEUS",
-    "steps": [{ "id": "6f4d5a8f-4dab-48db-9ed7-1ed271ce3cd0" }]
-  },
-  {
-    "id": "yellow",
-    "color": "#FFFF00",
-    "label": "EQUIPE DES JAUNES",
-    "steps": [{ "id": "6f4d5a8f-4dab-48db-9ed7-1ed271ce3cd0" }]
+    "steps": [
+      {
+        "id": "6f4d5a8f",
+        "coords": {
+          "latitude": 48.8824866,
+          "longitude": 2.3213032
+        }
+      },
+      {
+        "id": "786e13d3",
+        "coords": {
+          "latitude": 48.8772315,
+          "longitude": 2.3231175
+        }
+      },
+      {
+        "id": "f16a32fb",
+        "coords": {
+          "latitude": 48.8719697,
+          "longitude": 2.3294127
+        }
+      },
+      {
+        "id": "9da17bf9",
+        "coords": {
+          "latitude": 48.8627508,
+          "longitude": 2.3362121
+        }
+      }
+    ]
   }
 ]

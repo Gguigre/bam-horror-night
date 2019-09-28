@@ -1,4 +1,7 @@
 import React from "react";
+import teams from "../../config.json";
+import "../../App.css";
+import { Distance } from "../../components/Distance";
 
 export function Step({
   match,
@@ -6,15 +9,13 @@ export function Step({
   isGeolocationEnabled,
   coords
 }) {
-  return !isGeolocationAvailable ? (
-    <div>Your browser does not support Geolocation</div>
-  ) : !isGeolocationEnabled ? (
-    <div>Geolocation is not enabled</div>
-  ) : coords ? (
-    <span>
-      {coords.latitude} {coords.longitude}
-    </span>
-  ) : (
-    <div>Getting the location data&hellip; </div>
+  const clue = teams
+    .find(team => team.id === match.params.teamId)
+    .steps.find(step => step.id === match.params.stepId);
+
+  return (
+    <div className="Container">
+      <Distance clue={clue} />
+    </div>
   );
 }

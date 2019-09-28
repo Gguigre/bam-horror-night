@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
+    "gps-distance": "^0.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-geolocated": "^3.0.1",

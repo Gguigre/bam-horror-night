@@ -1,1 +1,1 @@
-export { StepContainer as Step } from "./Step.container";
+export { Step } from "./Step.component";
