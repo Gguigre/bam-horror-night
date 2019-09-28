@@ -13,3 +13,13 @@
   color: white;
   padding: 16px;
 }
+
+.Footer {
+  padding: 16px;
+  bottom: 0;
+  position: absolute;
+  background-color: #09d3ac;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+}

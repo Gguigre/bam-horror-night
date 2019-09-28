@@ -24,7 +24,7 @@ export function Distance({
     <div>Geolocation is not enabled</div>
   ) : coords ? (
     <span>
-      Détective ! vous êtes à{" "}
+      Détective ! Vous êtes à{" "}
       {distanceToClue > 1000
         ? "plus d'un kilomètre"
         : distanceToClue > 500
