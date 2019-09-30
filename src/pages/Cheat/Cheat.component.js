@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../App.css";
+import teams from "../../config.json";
 
 export function Cheat({ coords }) {
   return (
@@ -17,6 +19,23 @@ export function Cheat({ coords }) {
       ) : (
         <div>?</div>
       )}
+      {teams.map(team => (
+        <div style={{ margin: 16, textAlign: "center" }}>
+          <div style={{ marginBottom: 8 }}>
+            <strong style={{ color: team.color }}>{team.label}</strong>
+          </div>
+          {team.steps.map((step, index) => (
+            <div>
+              <Link
+                style={{ textDecoration: "none", color: "#FFF" }}
+                to={`/step/${team.id}/${team.steps[0].id}`}
+              >
+                <strong>Étape {index + 1}</strong>
+              </Link>
+            </div>
+          ))}
+        </div>
+      ))}
     </div>
   );
 }
