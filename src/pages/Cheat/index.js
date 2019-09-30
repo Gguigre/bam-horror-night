@@ -1,1 +1,1 @@
-export { Cheat } from "./Cheat.component";
+export { CheatContainer as Cheat } from "./Cheat.container";

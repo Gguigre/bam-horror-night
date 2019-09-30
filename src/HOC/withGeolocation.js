@@ -3,8 +3,11 @@ import { geolocated } from "react-geolocated";
 export const withGeolocation = geolocated({
   positionOptions: {
     enableHighAccuracy: true,
-    watchPosition: true
+    maximumAge: 0,
+    timeout: Infinity
   },
-  userDecisionTimeout: 5000,
-  geolocationProvider: navigator.geolocation
+  watchPosition: true,
+  userDecisionTimeout: null,
+  suppressLocationOnMount: false,
+  isOptimisticGeolocationEnabled: false
 });
