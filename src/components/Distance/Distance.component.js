@@ -23,15 +23,7 @@ export function Distance({
   ) : !isGeolocationEnabled ? (
     <div>Geolocation is not enabled</div>
   ) : coords ? (
-    <span>
-      Détective ! Vous êtes à{" "}
-      {distanceToClue > 1000
-        ? "plus d'un kilomètre"
-        : distanceToClue > 500
-        ? "quelques centaines de mètres"
-        : "pas très loin"}{" "}
-      de votre indice !
-    </span>
+    <span>Détective ! Vous êtes à {distanceToClue}m de votre indice !</span>
   ) : (
     <div>Getting the location data</div>
   );
