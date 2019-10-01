@@ -5,23 +5,26 @@ const TRESHOLD_DISTANCE = 50;
 
 export class SubmitButton extends Component {
   checkPosition = () => {
-    const { team, coords } = this.props;
-    let found = false;
-    team.steps.map((step, index) => {
-      const distanceToClue = Math.floor(
-        distance(
-          coords.latitude,
-          coords.longitude,
-          step.coords.latitude,
-          step.coords.longitude
-        ) * 1000
+    const { team, clue, coords } = this.props;
+
+    const distanceToClue = Math.floor(
+      distance(
+        coords.latitude,
+        coords.longitude,
+        clue.coords.latitude,
+        clue.coords.longitude
+      ) * 1000
+    );
+    const nextStepIndex = team.steps.findIndex(step => step.id === clue.id) + 1;
+    if (distanceToClue <= TRESHOLD_DISTANCE) {
+      this.props.history.push(
+        `/step/${team.id}/${team.steps[nextStepIndex].id}`
       );
-      if (distanceToClue <= TRESHOLD_DISTANCE) {
-        found = true;
-        this.props.history.push(`/step/${team.id}/${team.steps[index + 1].id}`);
-      }
-    });
-    if (!found) alert(`🤔 Hum, je ne crois pas...`);
+    } else {
+      alert(
+        `🤔 Hum, je ne crois pas... Il te reste ${distanceToClue} pour l'indice ${nextStepIndex}`
+      );
+    }
   };
 
   render() {

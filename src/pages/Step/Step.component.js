@@ -26,7 +26,7 @@ export function Step({
           alt="indice"
           width={(5 * window.innerWidth) / 6}
         />
-        <SubmitButton team={team} />
+        <SubmitButton team={team} clue={clue} />
       </div>
       <div className="Footer">
         <Distance clue={clue} />
