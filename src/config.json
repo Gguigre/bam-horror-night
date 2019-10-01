@@ -5,6 +5,15 @@
     "label": "EQUIPE DES VERTS",
     "steps": [
       {
+        "id": "f16a32fb",
+        "coords": {
+          "latitude": 48.8725453,
+          "longitude": 2.3299814
+        },
+        "pictureUrl": "https://images.freeimages.com/images/large-previews/311/heart-of-stone-1316008.jpg",
+        "text": "Meetic ?"
+      },
+      {
         "id": "6f4d5a8f",
         "coords": {
           "latitude": 48.894819,
@@ -21,15 +30,6 @@
         },
         "pictureUrl": "https://images.freeimages.com/images/large-previews/287/stone-people-1396776.jpg",
         "text": "Est-ce que vous êtes à Répu ?"
-      },
-      {
-        "id": "f16a32fb",
-        "coords": {
-          "latitude": 48.8719697,
-          "longitude": 2.3294127
-        },
-        "pictureUrl": "https://images.freeimages.com/images/large-previews/311/heart-of-stone-1316008.jpg",
-        "text": "Mollit amet labore quis quis incididunt reprehenderit ea fugiat veniam ut. Adipisicing esse do id cupidatat proident in ipsum minim nostrud reprehenderit veniam veniam. Ut sint dolor occaecat consectetur labore labore commodo duis magna ex. Irure laboris laboris ea ut id incididunt magna. Est tempor quis magna cillum incididunt ipsum anim dolore adipisicing et officia. Qui duis commodo adipisicing laboris commodo adipisicing ipsum mollit voluptate. Sint proident excepteur et nisi anim proident cillum veniam."
       },
       {
         "id": "9da17bf9",
