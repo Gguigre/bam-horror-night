@@ -1,18 +1,22 @@
 import React, { Component } from "react";
 import distance from "gps-distance";
 
+const TRESHOLD_DISTANCE = 50;
+
 export class SubmitButton extends Component {
   checkPosition = () => {
     const { team, coords } = this.props;
     let found = false;
     team.steps.map((step, index) => {
-      const distanceToClue = distance(
-        coords.latitude,
-        coords.longitude,
-        step.coords.latitude,
-        step.coords.longitude
+      const distanceToClue = Math.floor(
+        distance(
+          coords.latitude,
+          coords.longitude,
+          step.coords.latitude,
+          step.coords.longitude
+        ) * 1000
       );
-      if (distanceToClue <= 0.05) {
+      if (distanceToClue <= TRESHOLD_DISTANCE) {
         found = true;
         this.props.history.push(`/step/${team.id}/${team.steps[index + 1].id}`);
       }
