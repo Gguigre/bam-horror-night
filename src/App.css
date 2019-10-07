@@ -1,17 +1,21 @@
 .Container {
   background-color: #282c34;
-  display: flex;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   position: absolute;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 64px 16px 128px;
+  padding-left: 16px;
+  padding-right: 16px;
+  overflow: auto;
+  height: 100%;
+}
+
+.VerticallyCentered {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .Footer {

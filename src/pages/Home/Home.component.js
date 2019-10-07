@@ -26,31 +26,34 @@ export class Home extends Component {
   render() {
     return (
       <div className="Container">
-        <div
-          onTouchStart={this.handleButtonPress}
-          onTouchEnd={this.handleButtonRelease}
-          onMouseDown={this.handleButtonPress}
-          onMouseUp={this.handleButtonRelease}
-          onMouseLeave={this.handleButtonRelease}
-        >
-          <span role="img" style={{ fontSize: 54 }} aria-label="ghost">
-            👻
+        <div className="VerticallyCentered">
+          <div
+            onTouchStart={this.handleButtonPress}
+            onTouchEnd={this.handleButtonRelease}
+            onMouseDown={this.handleButtonPress}
+            onMouseUp={this.handleButtonRelease}
+            onMouseLeave={this.handleButtonRelease}
+            style={{ textAlign: "center" }}
+          >
+            <span role="img" style={{ fontSize: 54 }} aria-label="ghost">
+              👻
+            </span>
+          </div>
+          <span className="Intro">
+            Bonjour détective, de quelle agence fais-tu partie ?
           </span>
-        </div>
-        <span className="Intro">
-          Bonjour détective, de quelle agence fais-tu partie ?
-        </span>
-        <div style={{ padding: 16 }}>
-          {teams.map(team => (
-            <div style={{ margin: 16 }} key={team.id}>
-              <Link
-                style={{ textDecoration: "none", color: "#FFF" }}
-                to={`/step/${team.id}/${team.steps[0].id}`}
-              >
-                <BigButton color={team.color} label={team.label}></BigButton>
-              </Link>
-            </div>
-          ))}
+          <div style={{ padding: 16 }}>
+            {teams.map(team => (
+              <div style={{ margin: 16 }} key={team.id}>
+                <Link
+                  style={{ textDecoration: "none", color: "#FFF" }}
+                  to={`/step/${team.id}/${team.steps[0].id}`}
+                >
+                  <BigButton color={team.color} label={team.label}></BigButton>
+                </Link>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     );

@@ -15,18 +15,25 @@ export function Step({
 
   return (
     <>
-      <div className="Container" style={{ overflow: "scroll" }}>
-        <span role="img" style={{ fontSize: 54 }} aria-label="ghost">
-          👻
-        </span>
-        <span>{clue.text}</span>
-        <img
-          style={{ marginTop: 16, marginBottom: 16 }}
-          src={clue.pictureUrl}
-          alt="indice"
-          width={(5 * window.innerWidth) / 6}
-        />
-        <SubmitButton team={team} clue={clue} />
+      <div className="Container">
+        <div style={{ paddingTop: 32, paddingBottom: 128 }}>
+          <div style={{ textAlign: "center" }}>
+            <span role="img" style={{ fontSize: 54 }} aria-label="ghost">
+              👻
+            </span>
+          </div>
+          <br />
+          <span>{clue.text}</span>
+          <div style={{ textAlign: "center" }}>
+            <img
+              style={{ marginTop: 16, marginBottom: 16 }}
+              src={clue.pictureUrl}
+              alt="indice"
+              width={(5 * window.innerWidth) / 6}
+            />
+            <SubmitButton team={team} clue={clue} />
+          </div>
+        </div>
       </div>
       <div className="Footer">
         <Distance clue={clue} />
