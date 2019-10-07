@@ -1,44 +1,44 @@
 [
   {
     "id": "green",
-    "color": "#00FF00",
-    "label": "EQUIPE DES VERTS",
+    "color": "#FA7000",
+    "label": "EQUIPE DE ALIX",
     "steps": [
       {
         "id": "f16a32fb",
         "coords": {
-          "latitude": 48.8725453,
-          "longitude": 2.3299814
+          "latitude": 48.8825094,
+          "longitude": 2.3217474
         },
-        "pictureUrl": "https://images.freeimages.com/images/large-previews/311/heart-of-stone-1316008.jpg",
-        "text": "Meetic ?"
+        "pictureUrl": "https://i.ibb.co/7Yvb1VT/espe.png",
+        "text": "ESPE devant BAM ?"
       },
       {
         "id": "6f4d5a8f",
         "coords": {
-          "latitude": 48.894819,
-          "longitude": 2.41868
+          "latitude": 48.8820622,
+          "longitude": 2.3156818
         },
-        "pictureUrl": "https://images.freeimages.com/images/large-previews/ad5/escalante-2-1391686.jpg",
-        "text": "Est-ce que vous êtes au 17 Rue de l'ancien canal 93500 Pantin ?"
+        "pictureUrl": "https://i.ibb.co/W0VHVrp/monoprix.png",
+        "text": "Monoprix rue de Levis ?"
       },
       {
         "id": "786e13d3",
         "coords": {
-          "latitude": 48.867516,
-          "longitude": 2.363842
+          "latitude": 48.8842337,
+          "longitude": 2.312821
         },
-        "pictureUrl": "https://images.freeimages.com/images/large-previews/287/stone-people-1396776.jpg",
-        "text": "Est-ce que vous êtes à Répu ?"
+        "pictureUrl": "https://i.ibb.co/Z6nJv77/Capture-d-e-cran-2019-10-07-a-13-36-17.png",
+        "text": "Petit bateau ?"
       },
       {
         "id": "9da17bf9",
         "coords": {
-          "latitude": 48.8627508,
-          "longitude": 2.3362121
+          "latitude": 48.8872701,
+          "longitude": 2.3062484
         },
-        "pictureUrl": "https://images.freeimages.com/images/large-previews/914/antique-tools-1413774.jpg",
-        "text": "Labore quis reprehenderit deserunt nulla exercitation. Excepteur et tempor nostrud minim. Anim cupidatat do ea ipsum. Magna ullamco sunt ut occaecat veniam mollit sunt velit dolor aute nostrud ea. Consequat esse sint occaecat nulla velit minim cillum ullamco ea dolor. Et laborum eu veniam aute tempor anim consectetur. Incididunt irure commodo sunt tempor qui elit veniam dolor officia cillum enim ut deserunt."
+        "pictureUrl": "https://i.ibb.co/4Y6DTyh/Capture-d-e-cran-2019-10-07-a-13-38-18.png",
+        "text": "Maison quis reprehenderit deserunt nulla exercitation. Excepteur et tempor nostrud minim. Anim cupidatat do ea ipsum. Magna ullamco sunt ut occaecat veniam mollit sunt velit dolor aute nostrud ea. Consequat esse sint occaecat nulla velit minim cillum ullamco ea dolor. Et laborum eu veniam aute tempor anim consectetur. Incididunt irure commodo sunt tempor qui elit veniam dolor officia cillum enim ut deserunt."
       }
     ]
   }
