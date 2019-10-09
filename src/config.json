@@ -1,6 +1,6 @@
 [
   {
-    "id": "green",
+    "id": "alix",
     "color": "#FA7000",
     "label": "EQUIPE DE ALIX",
     "steps": [
@@ -39,6 +39,49 @@
         },
         "pictureUrl": "https://i.ibb.co/4Y6DTyh/Capture-d-e-cran-2019-10-07-a-13-38-18.png",
         "text": "Maison quis reprehenderit deserunt nulla exercitation. Excepteur et tempor nostrud minim. Anim cupidatat do ea ipsum. Magna ullamco sunt ut occaecat veniam mollit sunt velit dolor aute nostrud ea. Consequat esse sint occaecat nulla velit minim cillum ullamco ea dolor. Et laborum eu veniam aute tempor anim consectetur. Incididunt irure commodo sunt tempor qui elit veniam dolor officia cillum enim ut deserunt."
+      }
+    ]
+  },
+  {
+    "id": "guigre",
+    "color": "#FA70FA",
+    "label": "EQUIPE DE GUIGRE",
+    "steps": [
+      {
+        "id": "f16a32fb",
+        "coords": {
+          "latitude": 48.872319,
+          "longitude": 2.329819
+        },
+        "pictureUrl": "https://i.ibb.co/7Yvb1VT/espe.png",
+        "text": "Auber."
+      },
+      {
+        "id": "6f4d5a8f",
+        "coords": {
+          "latitude": 48.87354,
+          "longitude": 2.328411
+        },
+        "pictureUrl": "https://i.ibb.co/W0VHVrp/monoprix.png",
+        "text": "C&A Havre Caumartin"
+      },
+      {
+        "id": "786e13d3",
+        "coords": {
+          "latitude": 48.875832,
+          "longitude": 2.323929
+        },
+        "pictureUrl": "https://i.ibb.co/Z6nJv77/Capture-d-e-cran-2019-10-07-a-13-36-17.png",
+        "text": "Angle StLaz bulle"
+      },
+      {
+        "id": "9da17bf9",
+        "coords": {
+          "latitude": 48.882253,
+          "longitude": 2.321149
+        },
+        "pictureUrl": "https://i.ibb.co/4Y6DTyh/Capture-d-e-cran-2019-10-07-a-13-38-18.png",
+        "text": "Rome"
       }
     ]
   }
