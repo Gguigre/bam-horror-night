@@ -24,16 +24,19 @@ export function Cheat({ coords }) {
           <div style={{ marginBottom: 8 }}>
             <strong style={{ color: team.color }}>{team.label}</strong>
           </div>
-          {team.steps.map((step, index) => (
-            <div>
-              <Link
-                style={{ textDecoration: "none", color: "#FFF" }}
-                to={`/step/${team.id}/${team.steps[0].id}`}
-              >
-                <strong>Étape {index + 1}</strong>
-              </Link>
-            </div>
-          ))}
+          {team.steps.map((step, index) => {
+            console.log(team.steps[index].id);
+            return (
+              <div>
+                <Link
+                  style={{ textDecoration: "none", color: "#FFF" }}
+                  to={`/step/${team.id}/${team.steps[index].id}`}
+                >
+                  <strong>Étape {index + 1}</strong>
+                </Link>
+              </div>
+            );
+          })}
         </div>
       ))}
     </div>
