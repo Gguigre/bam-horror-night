@@ -22,7 +22,7 @@ export class SubmitButton extends Component {
       );
     } else {
       alert(
-        `🤔 Hum, je ne crois pas... Il te reste ${distanceToClue} pour l'indice ${nextStepIndex}`
+        `🤔 Hum, je ne crois pas... Je te vois à ${distanceToClue}m de l'indice ${nextStepIndex}`
       );
     }
   };
