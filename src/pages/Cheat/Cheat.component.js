@@ -8,7 +8,7 @@ export function Cheat({ coords }) {
     <div className="Container">
       {coords ? (
         <div>
-          Détective! Tu es géolocalisé aux coordonnées
+          Détective! Tu es géolocalisé.e aux coordonnées
           <br />
           <strong>Lat :</strong>
           {coords.latitude}

@@ -24,7 +24,7 @@ export function Distance({
     <div>Geolocation is not enabled</div>
   ) : coords ? (
     <>
-      <span>Détective ! Vous êtes à {distanceToClue}m de votre indice !</span>
+      <span>Détective ! Tu es à {distanceToClue}m de ton indice !</span>
     </>
   ) : (
     <div>Getting the location data</div>
