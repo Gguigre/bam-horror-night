@@ -3,7 +3,7 @@
     "id": "alix",
     "color": "#FA7000",
     "label": "DÉLICIEUSES TOURTES",
-    "killer": "Barnabé Cabard et Pierre Miquelon", 
+    "killer": "Barnabé Cabard et Pierre Miquelon",
     "steps": [
       {
         "id": "f16a32fb",
@@ -20,7 +20,7 @@
           "latitude": 48.8483215,
           "longitude": 2.3444539
         },
-        "pictureUrl": "http://zupimages.net/viewer.php?id=19/44/cky4.png",
+        "pictureUrl": "https://www.zupimages.net/up/19/44/cky4.png",
         "text": "Il paraît que c'est dans cette rue que moines, étudiants disparaissaient. Pourtant rien n'indique que des crimes aient eu lieu ici. Vous seriez vous trompé d'endroit. Je crains qu'il vous faille encore remonter la piste"
       },
       {
@@ -47,7 +47,7 @@
     "id": "guigre",
     "color": "#FA70FA",
     "label": "TERRORISME ET ROYAUTÉ",
-    "killer": "Ravaillac", 
+    "killer": "Ravaillac",
     "steps": [
       {
         "id": "f16a32fb",
@@ -64,7 +64,7 @@
           "latitude": 48.8602581,
           "logitude": 2.347359
         },
-        "pictureUrl": "http://zupimages.net/viewer.php?id=19/44/ev8i.png",
+        "pictureUrl": "https://www.zupimages.net/up/19/44/cky4.png",
         "text": "C'est dans cette rue que le roi Henri IV est assassiné. Son convoit est bloqué par la foule venu le voir et notre fou décide de saisir l'occasion pour mettre son plan à l'oeuvre. Il fait alors sauter le carosse du roi."
       },
       {
@@ -100,7 +100,7 @@
     "id": "trois",
     "color": "#5009FB",
     "label": "SORDIDES POISONS",
-    "killer": "La Marquise de Brinvillier", 
+    "killer": "La Marquise de Brinvillier",
     "steps": [
       {
         "id": "f16a32fb",
@@ -126,7 +126,7 @@
           "latitude": 48.8578837,
           "longitude": 2.3389307
         },
-        "pictureUrl": "http://zupimages.net/viewer.php?id=19/44/gx1n.png",
+        "pictureUrl": "https://www.zupimages.net/up/19/44/cky4.png",
         "text": "La marquise a bien progressé, ses meurtres sont presque indétectables. Elle décide de tuer ses frères et son père pour hériter de leur fortunes. St Croix, son amant s'en apperçoit et fuit dans cette maison emportant avec lui les lettres de la marquise contenant les confessions de ses crimes. Il les consigne dans une petite cassette \"à n'ouvrir qu'en cas de mort antérieure à celle de la Marquise "
       },
       {
