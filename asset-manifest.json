@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bam-horror-night/static/css/main.dd8f71b3.chunk.css",
+    "main.js": "/bam-horror-night/static/js/main.7b67d0e8.chunk.js",
+    "main.js.map": "/bam-horror-night/static/js/main.7b67d0e8.chunk.js.map",
+    "runtime-main.js": "/bam-horror-night/static/js/runtime-main.b324ae96.js",
+    "runtime-main.js.map": "/bam-horror-night/static/js/runtime-main.b324ae96.js.map",
+    "static/js/2.e498e329.chunk.js": "/bam-horror-night/static/js/2.e498e329.chunk.js",
+    "static/js/2.e498e329.chunk.js.map": "/bam-horror-night/static/js/2.e498e329.chunk.js.map",
+    "index.html": "/bam-horror-night/index.html",
+    "precache-manifest.efe2effc51bb40048b2c49dce31e145d.js": "/bam-horror-night/precache-manifest.efe2effc51bb40048b2c49dce31e145d.js",
+    "service-worker.js": "/bam-horror-night/service-worker.js",
+    "static/css/main.dd8f71b3.chunk.css.map": "/bam-horror-night/static/css/main.dd8f71b3.chunk.css.map"
+  }
+}
