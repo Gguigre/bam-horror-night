@@ -2,86 +2,141 @@
   {
     "id": "alix",
     "color": "#FA7000",
-    "label": "EQUIPE DE ALIX",
+    "label": "DÉLICIEUSES TOURTES",
+    "killer": "Barnabé Cabard et Pierre Miquelon", 
     "steps": [
       {
         "id": "f16a32fb",
         "coords": {
-          "latitude": 48.8825094,
-          "longitude": 2.3217474
+          "latitude": 48.8484556,
+          "longitude": 2.3432774
         },
-        "pictureUrl": "https://i.ibb.co/7Yvb1VT/espe.png",
-        "text": "Bacon ipsum dolor amet sirloin hamburger jowl pancetta buffalo brisket. Pastrami andouille kevin buffalo tongue picanha, strip steak chicken pork loin swine pancetta. Spare ribs doner meatloaf short ribs prosciutto meatball ball tip. Alcatra shankle tail pork chop. Meatball capicola fatback, biltong t-bone prosciutto chicken pastrami leberkas. Buffalo tongue meatloaf fatback spare ribs beef ribs.\n\nPork chop andouille jowl, ham turducken rump meatloaf beef drumstick fatback shoulder pork loin short ribs. Capicola frankfurter beef ribs meatball tail shank kielbasa venison biltong shoulder ribeye tri-tip short ribs landjaeger. Chicken short loin shank pork belly swine. Buffalo chuck fatback, short ribs pork spare ribs filet mignon pig. Kielbasa leberkas shank, ground round ham hock strip steak fatback cupim filet mignon frankfurter meatloaf shoulder rump drumstick."
+        "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/P1300734_Paris_V_place_de_la_Sorbonne_rwk.jpg",
+        "text": "Ce bâtiment a été le théâtre de nombreux mystères. Pendant plusieurs année des étudiants ont disparus sans inquiéter personne.  C'était toujours des élèves studieux et effacés, venus de la province. Sans amis et sans famille proche, leur absence passait presque inaperçue. "
       },
       {
         "id": "6f4d5a8f",
         "coords": {
-          "latitude": 48.8820622,
-          "longitude": 2.3156818
+          "latitude": 48.8483215,
+          "longitude": 2.3444539
         },
-        "pictureUrl": "https://i.ibb.co/W0VHVrp/monoprix.png",
-        "text": "Monoprix rue de Levis ?"
+        "pictureUrl": "http://zupimages.net/viewer.php?id=19/44/cky4.png",
+        "text": "Il paraît que c'est dans cette rue que moines, étudiants disparaissaient. Pourtant rien n'indique que des crimes aient eu lieu ici. Vous seriez vous trompé d'endroit. Je crains qu'il vous faille encore remonter la piste"
       },
       {
         "id": "786e13d3",
         "coords": {
-          "latitude": 48.8842337,
-          "longitude": 2.312821
+          "latitude": 48.8539997,
+          "longitude": 2.3484035
         },
-        "pictureUrl": "https://i.ibb.co/Z6nJv77/Capture-d-e-cran-2019-10-07-a-13-36-17.png",
-        "text": "Petit bateau ?"
+        "pictureUrl": "http://4.bp.blogspot.com/-wHUq-LtJrLs/VhLYeAmywGI/AAAAAAAABTs/i2wmXsX7mco/s1600/1%2B%2528Large%2529%2B%2528Custom%2529.JPG",
+        "text": "Je vous laisse remonter en 1387. À cet endroit se dressent deux magasins. Un barbier un peu miteux et une boulangerie dont les tourtes à la viande sont connues dans tout Paris. Il fait nuit et depuis plusieurs heures déjà un chien hurle à la mort dans la rue. "
       },
       {
         "id": "9da17bf9",
         "coords": {
-          "latitude": 48.8872701,
-          "longitude": 2.3062484
+          "latitude": 48.8573504,
+          "longitude": 2.3479575
         },
-        "pictureUrl": "https://i.ibb.co/4Y6DTyh/Capture-d-e-cran-2019-10-07-a-13-38-18.png",
-        "text": "Maison quis reprehenderit deserunt nulla exercitation. Excepteur et tempor nostrud minim. Anim cupidatat do ea ipsum. Magna ullamco sunt ut occaecat veniam mollit sunt velit dolor aute nostrud ea. Consequat esse sint occaecat nulla velit minim cillum ullamco ea dolor. Et laborum eu veniam aute tempor anim consectetur. Incididunt irure commodo sunt tempor qui elit veniam dolor officia cillum enim ut deserunt."
+        "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hotel_de_ville_Paris.JPG",
+        "text": "Le chien était la propriété d'un étudiant venu se faire raser mais qui a payé sa coupe bien trop cher. Pendant le rasage, le barbier l'a en effet égorgé avant de faire passer son corps via une trappe à son ami boulanger. Celui-ci en a ensuite fait comme à son habitude de délicieuses tourtes et de succulents pâtés. Nos deux comparses ont été démasqué grâce à un voisin alerté par les lamentations incessantes du chien et ils ont finalement été jugés à l'hôtel de ville. Ils furent condamné à brûler dans une cage de fer et l'état ayant à coeur de faire disparaître ce terrible pant d'histoire a fait brûler leurs boutiques et tout leur état civil."
       }
     ]
   },
   {
     "id": "guigre",
     "color": "#FA70FA",
-    "label": "EQUIPE DE GUIGRE",
+    "label": "TERRORISME ET ROYAUTÉ",
+    "killer": "Ravaillac", 
     "steps": [
       {
         "id": "f16a32fb",
         "coords": {
-          "latitude": 48.872319,
-          "longitude": 2.329819
+          "latitude": 48.8538553,
+          "longitude": 2.3595807
         },
-        "pictureUrl": "https://i.ibb.co/7Yvb1VT/espe.png",
-        "text": "Auber."
+        "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/St-Paul-St-Louis-DSC_8068.jpg/520px-St-Paul-St-Louis-DSC_8068.jpg",
+        "text": "On est en 1610 et derrière ces murs un homme est en train de confier un projet terrible à un jésuite. Il hésite encore à passer à l'acte mais le plan est déjà prêt..."
       },
       {
         "id": "6f4d5a8f",
         "coords": {
-          "latitude": 48.87354,
-          "longitude": 2.328411
+          "latitude": 48.8602581,
+          "logitude": 2.347359
         },
-        "pictureUrl": "https://i.ibb.co/W0VHVrp/monoprix.png",
-        "text": "C&A Havre Caumartin"
+        "pictureUrl": "http://zupimages.net/viewer.php?id=19/44/ev8i.png",
+        "text": "C'est dans cette rue que le roi Henri IV est assassiné. Son convoit est bloqué par la foule venu le voir et notre fou décide de saisir l'occasion pour mettre son plan à l'oeuvre. Il fait alors sauter le carosse du roi."
       },
       {
         "id": "786e13d3",
         "coords": {
-          "latitude": 48.875832,
-          "longitude": 2.323929
+          "latitude": 48.8583165,
+          "longitude": 2.350242
         },
-        "pictureUrl": "https://i.ibb.co/Z6nJv77/Capture-d-e-cran-2019-10-07-a-13-36-17.png",
-        "text": "Angle StLaz bulle"
+        "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Hotel_de_retz.JPG",
+        "text": "A l'époque la protection judicière existe déjà, et c'est dans cet hôtel que l'assassin est placé en attente de son jugement. Sympa la prison !"
       },
       {
         "id": "9da17bf9",
         "coords": {
-          "latitude": 48.882253,
-          "longitude": 2.321149
+          "latitude": 48.8560149,
+          "longitude": 2.3433066
         },
-        "pictureUrl": "https://i.ibb.co/4Y6DTyh/Capture-d-e-cran-2019-10-07-a-13-38-18.png",
-        "text": "Rome"
+        "pictureUrl": "https://www.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_77884/node_77888/conciergerie-salle-des-gens-d'armes-ligne-de-d%C3%A9marcation-de-l'inondation-de-1910-%7C-630x405-%7C-%C2%A9-benjamin-gavaudo-cmn/18616395-1-fre-FR/Conciergerie-Salle-des-Gens-d'armes-Ligne-de-d%C3%A9marcation-de-l'inondation-de-1910-%7C-630x405-%7C-%C2%A9-Benjamin-GAVAUDO-CMN.jpg",
+        "text": "C'est ici que l'assassin a ensuite été transféré afin de pouvoir se confesser avant sa mise à mort"
+      },
+      {
+        "id": "9da17bf9",
+        "coords": {
+          "latitude": 48.8573504,
+          "longitude": 2.3479575
+        },
+        "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hotel_de_ville_Paris.JPG",
+        "text": "Il faut croire que rien n'est trop horrible pour venger la mort d'un roi. Sur cette place notre assassin fût brûlé avant d'être écartelé. C'est ici que s'achève la course folle de notre fanatique révolutionnaire et régicide."
+      }
+    ]
+  },
+  {
+    "id": "trois",
+    "color": "#5009FB",
+    "label": "SORDIDES POISONS",
+    "killer": "La Marquise de Brinvillier", 
+    "steps": [
+      {
+        "id": "f16a32fb",
+        "coords": {
+          "latitude": 48.8578837,
+          "longitude": 2.3389307
+        },
+        "pictureUrl": "https://www.patrimoine-histoire.fr/images/Patrimoine/Paris/eStEustache/ParSEus_EXT02.JPG",
+        "text": "Cette histoire commence bien. En 1651, cette église abrite un beau mariage. Une belle jeune fille joliement dotée et un marquis s'épousent."
+      },
+      {
+        "id": "6f4d5a8f",
+        "coords": {
+          "latitude": 48.8578837,
+          "longitude": 2.3389307
+        },
+        "pictureUrl": "https://aleteiafrench.files.wordpress.com/2019/05/shutterstock_650181064.jpg?quality=100&strip=all&w=620&h=310&crop=1",
+        "text": "Notre marquise est frivole et rapidement s'éprend d'un certain St Croix. Leur amour est vite découvert et l'amant est emprisonné à la Bastille avec le célèbre empoisonneur Exili. À sa libération, il transmet tout son savoir à son amante qui s'empresse de tester ses nouveaux savoir sur les patients de cet hospice."
+      },
+      {
+        "id": "786e13d3",
+        "coords": {
+          "latitude": 48.8578837,
+          "longitude": 2.3389307
+        },
+        "pictureUrl": "http://zupimages.net/viewer.php?id=19/44/gx1n.png",
+        "text": "La marquise a bien progressé, ses meurtres sont presque indétectables. Elle décide de tuer ses frères et son père pour hériter de leur fortunes. St Croix, son amant s'en apperçoit et fuit dans cette maison emportant avec lui les lettres de la marquise contenant les confessions de ses crimes. Il les consigne dans une petite cassette \"à n'ouvrir qu'en cas de mort antérieure à celle de la Marquise "
+      },
+      {
+        "id": "9da17bf9",
+        "coords": {
+          "latitude": 48.8573504,
+          "longitude": 2.3479575
+        },
+        "pictureUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Hotel_de_ville_Paris.JPG",
+        "text": "En 1673, Sainte Croix meurt et la cassette est découverte. La marquise fuit mais est rattrapé et condamné au bûcher. Malgré tout, ses supliques sont si convaincantes que certains chrétiens la concidèrent alors comme une sainte."
       }
     ]
   }
