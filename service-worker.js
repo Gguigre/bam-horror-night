@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bam-horror-night/precache-manifest.ce8cbcf6a583527af938e1354ea95458.js"
+  "/bam-horror-night/precache-manifest.7a6dd3ddc304bb21dab77b2ab6eb95b2.js"
 );
 
 self.addEventListener('message', (event) => {
