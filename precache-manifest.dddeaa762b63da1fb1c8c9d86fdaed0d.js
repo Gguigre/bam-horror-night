@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2949fa74c63a1ced5acee56d19257162",
+    "revision": "e301b80181f3bd3fdae5ac73d2a95d95",
     "url": "/bam-horror-night/index.html"
   },
   {
-    "revision": "5892d636f09fe0a0c1c7",
+    "revision": "cabbea586cefc75de659",
     "url": "/bam-horror-night/static/css/main.dd8f71b3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bam-horror-night/static/js/2.e498e329.chunk.js"
   },
   {
-    "revision": "5892d636f09fe0a0c1c7",
-    "url": "/bam-horror-night/static/js/main.f3051bae.chunk.js"
+    "revision": "cabbea586cefc75de659",
+    "url": "/bam-horror-night/static/js/main.a73cea43.chunk.js"
   },
   {
     "revision": "caa462a25dfe83d23b60",
