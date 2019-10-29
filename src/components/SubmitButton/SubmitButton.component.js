@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import distance from "gps-distance";
+import "./SubmitButton.css";
 
 const TRESHOLD_DISTANCE = 50;
 
@@ -33,7 +34,6 @@ export class SubmitButton extends Component {
       return (
         <button
           style={{
-            fontSize: 16,
             backgroundColor: this.props.team.color
           }}
           onClick={this.checkPosition}
