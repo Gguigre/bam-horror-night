@@ -36,6 +36,14 @@ export function Cheat({ coords }) {
               </div>
             );
           })}
+          <div>
+            <Link
+              style={{ textDecoration: "none", color: "#FFF" }}
+              to={`/laststep-didyoutrytoforgeurl/${team.id}`}
+            >
+              <strong>Dernière étape</strong>
+            </Link>
+          </div>
         </div>
       ))}
     </div>
