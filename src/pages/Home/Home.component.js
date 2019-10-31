@@ -4,6 +4,7 @@ import "../../App.css";
 import { Link } from "react-router-dom";
 import { BigButton } from "../../components/BigButton";
 import teams from "../../config.json";
+import spider from "../../assets/spider.png";
 
 export class Home extends Component {
   constructor() {
@@ -26,6 +27,7 @@ export class Home extends Component {
   render() {
     return (
       <div className="Container">
+        <img src={spider} style={{ position: "absolute", right: 0, top: 0, height: 100 }} alt=""/>
         <div className="VerticallyCentered">
           <div
             onTouchStart={this.handleButtonPress}

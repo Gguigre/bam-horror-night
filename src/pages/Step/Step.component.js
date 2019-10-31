@@ -3,6 +3,7 @@ import teams from "../../config.json";
 import "../../App.css";
 import { Distance } from "../../components/Distance";
 import { SubmitButton } from "../../components/SubmitButton";
+import spider from "../../assets/spider.png";
 
 export function Step({
   match,
@@ -16,6 +17,7 @@ export function Step({
   return (
     <>
       <div className="Container">
+      <img src={spider} style={{ position: "absolute", right: 0, top: 0, height: 100 }} alt=""/>
         <div style={{ paddingTop: 32, paddingBottom: 128 }}>
           <div style={{ textAlign: "center" }}>
             <span role="img" style={{ fontSize: 54 }} aria-label="ghost">
