@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/bam-horror-night/static/css/main.8582a964.chunk.css",
-    "main.js": "/bam-horror-night/static/js/main.9dbc308c.chunk.js",
-    "main.js.map": "/bam-horror-night/static/js/main.9dbc308c.chunk.js.map",
+    "main.js": "/bam-horror-night/static/js/main.e7c5cfb4.chunk.js",
+    "main.js.map": "/bam-horror-night/static/js/main.e7c5cfb4.chunk.js.map",
     "runtime-main.js": "/bam-horror-night/static/js/runtime-main.b324ae96.js",
     "runtime-main.js.map": "/bam-horror-night/static/js/runtime-main.b324ae96.js.map",
-    "static/js/2.698809cc.chunk.js": "/bam-horror-night/static/js/2.698809cc.chunk.js",
-    "static/js/2.698809cc.chunk.js.map": "/bam-horror-night/static/js/2.698809cc.chunk.js.map",
+    "static/js/2.aa1913ab.chunk.js": "/bam-horror-night/static/js/2.aa1913ab.chunk.js",
+    "static/js/2.aa1913ab.chunk.js.map": "/bam-horror-night/static/js/2.aa1913ab.chunk.js.map",
     "index.html": "/bam-horror-night/index.html",
-    "precache-manifest.fea6b88f49ba879670b8e0eb1e4ce870.js": "/bam-horror-night/precache-manifest.fea6b88f49ba879670b8e0eb1e4ce870.js",
+    "precache-manifest.e33c1a5cdeada8cb1714ab20e3f2c18d.js": "/bam-horror-night/precache-manifest.e33c1a5cdeada8cb1714ab20e3f2c18d.js",
     "service-worker.js": "/bam-horror-night/service-worker.js",
-    "static/css/main.8582a964.chunk.css.map": "/bam-horror-night/static/css/main.8582a964.chunk.css.map"
+    "static/css/main.8582a964.chunk.css.map": "/bam-horror-night/static/css/main.8582a964.chunk.css.map",
+    "static/media/spider.png": "/bam-horror-night/static/media/spider.5e3f12c9.png"
   }
 }
