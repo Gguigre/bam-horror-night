@@ -18,7 +18,7 @@ export class LastStep extends React.Component {
   handleSubmit(event) {
     const { match } = this.props;
     const team = teams.find(team => team.id === match.params.teamId);
-    const regex = new RegExp(team.killer);
+    const regex = new RegExp(team.killer, "i");
     if (this.state.value.match(regex)) {
       alert(
         `Bravo détective ! Tu as trouvé le meurtrier ! Rendez vous au Café Bienvenue, 4 Rue du Bourg l'Abbé, 75003 Paris`

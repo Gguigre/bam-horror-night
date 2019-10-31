@@ -1,6 +1,6 @@
 [
   {
-    "id": "alix",
+    "id": "beluga",
     "color": "#FA7000",
     "label": "DÉLICIEUSES TOURTES",
     "killer": "Cabard|Miquelon",
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "id": "guigre",
+    "id": "pangolin",
     "color": "#FA70FA",
     "label": "TERRORISME ET ROYAUTÉ",
     "killer": "Ravaillac",
@@ -97,7 +97,7 @@
     ]
   },
   {
-    "id": "trois",
+    "id": "fenec",
     "color": "#5009FB",
     "label": "SORDIDES POISONS",
     "killer": "Brinvillier",
