@@ -3,7 +3,7 @@
     "id": "alix",
     "color": "#FA7000",
     "label": "DÉLICIEUSES TOURTES",
-    "killer": "Barnabé Cabard et Pierre Miquelon",
+    "killer": "Cabard|Miquelon",
     "steps": [
       {
         "id": "f16a32fb",
@@ -100,7 +100,7 @@
     "id": "trois",
     "color": "#5009FB",
     "label": "SORDIDES POISONS",
-    "killer": "La Marquise de Brinvillier",
+    "killer": "Brinvillier",
     "steps": [
       {
         "id": "f16a32fb",

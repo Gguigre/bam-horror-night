@@ -18,9 +18,13 @@ export class SubmitButton extends Component {
     );
     const nextStepIndex = team.steps.findIndex(step => step.id === clue.id) + 1;
     if (distanceToClue <= TRESHOLD_DISTANCE) {
-      this.props.history.push(
-        `/step/${team.id}/${team.steps[nextStepIndex].id}`
-      );
+      if (team.steps[nextStepIndex]) {
+        this.props.history.push(
+          `/step/${team.id}/${team.steps[nextStepIndex].id}`
+        );
+      } else {
+        this.props.history.push(`/laststep-didyoutrytoforgeurl/${team.id}`);
+      }
     } else {
       alert(
         `🤔 Hum, je ne crois pas... Je te vois à ${distanceToClue}m de l'indice ${nextStepIndex}`

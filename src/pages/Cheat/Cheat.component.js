@@ -25,7 +25,6 @@ export function Cheat({ coords }) {
             <strong style={{ color: team.color }}>{team.label}</strong>
           </div>
           {team.steps.map((step, index) => {
-            console.log(team.steps[index].id);
             return (
               <div>
                 <Link
